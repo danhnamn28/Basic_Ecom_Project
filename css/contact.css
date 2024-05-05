@@ -1,0 +1,55 @@
+/* Navigation */
+
+#menu > li > a:hover{
+    text-decoration: none;
+
+}
+
+nav.navbar {
+    padding: 0px;
+}
+
+/* Form */
+.banner{
+    position: relative;
+}
+.banner .name {
+    border: 2px solid rgb(26, 0, 58);
+    padding: 2px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: rgb(26, 0, 58);
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.form-group{
+    position: relative;
+}
+.form-group .form-input {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    display: block;
+}
+.form-group h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-group span{
+    position: absolute;
+    border-bottom: 3px solid var(--success-color);
+    left: 0;
+    top: 34px;
+    width: 0%;
+    transition: 0.3s;
+}
+.form-group .form-input:focus ~ span {
+    width: 100%;
+}
